@@ -1,0 +1,63 @@
+.Card_4 {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+
+
+.Card_4.version2 {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+
+
+.Card_4.version3 {
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+
+.Card_4.version4 {
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+/* TEXT STYLINGS */
+
+.Card_4__text {
+    background-color: yellow;
+    margin: 10%;
+}
+
+.Card_4__text.version2 {
+    background-color: aqua;
+    margin: 10%;
+}
+
+.Card_4__text.version3 {
+    background-color: paleturquoise;
+    margin: 10%;
+}
+
+.Card_4__text.version4 {
+    background-color: palevioletred;
+    margin: 10%;
+}
+

@@ -1,0 +1,152 @@
+@import url(Card__1__versions.css);
+
+@import url(Card__2__versions.css);
+
+@import url(Card__3__versions.css);
+
+@import url(Card__4__versions.css);
+body {
+    background-color: black;
+}
+
+h1 { 
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.Cards {
+    /* margin: 0; */
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* position: relative; */
+    /* left: 0vw; */
+    /* grid-template-rows: repeat(2, 1fr); */
+    font-size: 2.55vw;
+    
+}
+
+
+.Card_1 { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: aqua;
+    width: 50vw;
+    height: 50vw;
+}
+
+.Card_1__text {
+    background-color: yellow;
+    margin: 10%;
+}
+/* - */
+
+/* . */
+.Card_2 {
+    background-color: blue ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+.Card_2__text {
+    background-color: yellow;
+    margin: 10%;
+}
+
+
+
+
+.Card_3 {
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+.Card_3__text {
+    background-color: yellow;
+    margin: 10%;
+}
+
+.Card_4 {
+    background-color: magenta;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    height: 50vw;
+}
+
+.Card_4__text {
+    background-color: yellow;
+    margin: 10%;
+}
+/* ... */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.Navbar {
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    bottom: 0;
+    /* left: -10vw; */
+    width: 100vw;
+    /* list-style-type: none; */
+    border: 1px solid lime;
+}
+
+.Navbar__button {
+    
+}
+
+.Navbar_li {
+    
+}
+
+.Navbar__button--1 {
+    width: 25vw;
+    border: none;
+    background-color: aqua;
+    color: black;
+}
+
+.Navbar__button--2 {
+    border: none;
+    background-color: blue;
+    color: yellow;
+    width: 25vw;
+}
+
+.Navbar__button--3 {
+    border: none;
+    background-color: yellow;
+    width: 25vw;
+}
+
+.Navbar__button--4 {
+    border: none;
+    background-color: magenta;
+    color: cyan;
+    width: 25vw;
+}
