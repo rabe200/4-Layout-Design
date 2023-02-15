@@ -44,6 +44,7 @@
 .Card_4__text {
     background-color: yellow;
     margin: 10%;
+    font-size: 1em;
 }
 
 .Card_4__text.version2 {
